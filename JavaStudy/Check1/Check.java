@@ -15,12 +15,12 @@ public class Check {
 		* 問2
 		* 以下のfor文を完成させなさい
 		*/
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < data.length; i++) {
 			System.out.print(data[i] + " ");
 		}
 		System.out.println();
-		for (int i = 0; i < 5; i++) {
-			for (int j = 4; j/*3*/ > i; j--) {
+		for (int i = 0; i < data.length; i++) {
+			for (int j = data.length - 1; j/*3*/ > i; j--) {
 				/*
 				* 問3
 				* 以下、配列の添字を入れてソートを完成させなさい
