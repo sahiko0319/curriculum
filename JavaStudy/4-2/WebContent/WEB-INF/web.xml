@@ -12,7 +12,7 @@
  <servlet-mapping>
  <servlet-name>select</servlet-name>
  <!--問② URLパターンを記述してください。-->
- <url-pattern>/month</url-pattern>
+ <url-pattern>/select</url-pattern>
  </servlet-mapping>
 <!-- ここまで -->
 </web-app>
