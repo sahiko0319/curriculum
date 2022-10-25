@@ -16,6 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 public class SelectServlet extends HttpServlet {
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws IOException, ServletException {
+    	System.out.println("aaaa");
         request.setCharacterEncoding("UTF-8");
         // 問① select.htmlから渡された値を受け取るために下記を修正しましょう。
         String value = request.getParameter("ここを修正");
