@@ -9,6 +9,7 @@
  <!--問① サーブレットのクラス名を入れてください。-->
  <servlet-class>SelectServlet</servlet-class>
  </servlet>
+ 
  <servlet-mapping>
  <servlet-name>select</servlet-name>
  <!--問② URLパターンを記述してください。-->
